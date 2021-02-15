@@ -1,10 +1,12 @@
 body {
     max-width: 960px;
-    margin: 0 auto;
+    margin:  auto;
+    border-bottom: none;
   }
   
   @media (max-width: 767px) {
     body {
       min-width: 480px;
+      border-bottom: none;
     }
   }
