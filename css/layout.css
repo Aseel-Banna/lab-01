@@ -1,10 +1,12 @@
 header {
     height: 100px;
+    border-bottom: none;
   }
   
   main {
     display: grid;
     grid-template-columns: 20% 80%;
+    border-bottom: none;
   }
   
   .side-div {
@@ -13,11 +15,13 @@ header {
     align-items: center;
     max-width: 200px;
     height: 600px;
+    border-right: none;
   }
   
   .main-container {
     display: grid;
     grid-template-rows: auto auto auto;
+    border-top: none;
   }
   
   @media (max-width: 767px) {
