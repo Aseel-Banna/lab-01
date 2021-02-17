@@ -71,3 +71,41 @@
         background-color: #ad6c80;
     }
   }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    #div1{
+        background-color: #cad315;
+    }
+    
+    #div2{
+        background-color: #120078;
+    }
+    
+    #div3{
+        background-color: #9d0191;
+    }
+    
+    #div4{
+        background-color: #fd3a69;
+    }
+    
+    #div5{
+        background-color: #fecd1a;
+    }
+    
+    #div6{
+        background-color: #e8e8e8;
+    }
+    
+    #div7{
+        background-color: #f05454;
+    }
+    
+    #div8{
+        background-color: #556052;
+    }
+    
+    #div9{
+        background-color: #cbbcb1;
+    } 
+}

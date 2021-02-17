@@ -1,9 +1,12 @@
 header div {
-    display: flex;
+    display: grid;
+    height: 100%;
+    /* width: 100%; */
+    grid-template-columns: auto;
+    grid-row: 1/1;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    
   }
   
   
@@ -36,7 +39,8 @@ header div {
   
   
   .main-container #section-three div {
-    min-height: 150px;
+    /* min-height: 150px; */
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +50,47 @@ header div {
     header div {
       min-width: 480px;
       height: 75px;
+    }
+    
+    .main-container #section-one {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+    }
+  
+    .main-container #section-one div {
+      min-height: 125px;
+    }
+  
+    .main-container #section-two {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+    }
+  
+    .main-container #section-two div {
+      height: 250px;
+    }
+  
+    #div9{
+      min-height: 80px;
+    }
+  }
+
+  @media (max-width: 1024px) and (min-width: 768px) {
+    header div {
+      min-width: 480px;
+      height: 100%;
+    }
+
+    .side-div{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      max-width: 200px;
+      height: 100%;
+      border-right: none;
     }
     
     .main-container #section-one {
